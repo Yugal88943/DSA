@@ -1,0 +1,257 @@
+\refstepcounter{section}
+\addlabcontentsline{Assignment \thesection: Sorting Algorithms}{28-01-2026}{\thepage}
+\section*{\centering Assignment \thesection: Sorting Algorithms}
+%-----------------------------------------------
+% Task 1
+% -----------------------------------------------
+\subsection{Write a program to show Bubble Sort}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+// Sorting of array in Bubble Sort
+public class BubbleSort{
+    public static void main(String[] args){
+        int arr[] = {5,1,4,2,8};
+        for(int i=0; i<arr.length-1; i++){
+            for(int j=0; j<arr.length-i-1; j++){
+                if(arr[j]>arr[j+1]){
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        for(int num : arr){
+            System.out.print(num + " ");
+        }
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab2/Images/bubble_sort.png}
+    \caption{Program to show Bubble Sort}
+    \label{fig:bubble_sort_output}
+\end{figure}
+%-----------------------------------------------
+% Task 2
+% -----------------------------------------------
+\subsection{Write a program to show Insertion Sort}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+// Insertion Sort
+public class InsertionSort {
+    public static void main(String[] args) {
+        int arr[] = {1,4,5,2,3,7,9,8,0,6};
+        for(int i = 1;i<arr.length; i++){
+            int key = arr[i];
+            int j = i-1;
+            while (j>=0 && arr[j]>key) {
+                arr[j+1] = arr[j];
+                j--;
+            }
+            arr[j+1] = key;
+        }
+        for(int num : arr){
+            System.out.print(num + " ");
+        }
+    }    
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab2/Images/insertion_sort.png}
+    \caption{Program to show Insertion Sort}
+    \label{fig:insertion_sort_output}
+\end{figure}
+%-----------------------------------------------    
+% Task 3
+% -----------------------------------------------
+\subsection{Write a program to show Selection Sort}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+    //Selection Sort 
+public class SelectionSort {
+    public static void main(String[] args) {
+        int arr[] = {3,5,2,6,-1,0,4,7,9,8,-2};
+
+        for(int i=0;i<arr.length-1;i++){
+            int minIndex = i;
+            for(int j = i+1; j<arr.length;j++){
+                if(arr[j]<arr[minIndex]){
+                    minIndex = j;
+
+                }
+            }
+            int temp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = temp;
+        }
+        for(int num : arr){
+            System.out.print(num + " ");
+
+        }
+    }
+    
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab2/Images/selection_sort.png}
+    \caption{Program to show Selection Sort}
+    \label{fig:selection_sort_output}
+\end{figure}
+%-----------------------------------------------
+% Task 4
+% -----------------------------------------------
+\subsection{Write a program to show Merge Sort}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+    //Merge Sort : Divide and Conquer
+import java.util.Arrays;
+
+public class MergeSort {
+   
+    // Main merge sort function
+    public static void mergeSort(int[] arr, int left, int right){
+        if(left < right){
+            int mid =  left + (right-left)/2;
+            // Sort Left Half
+            mergeSort(arr, left, mid);
+            // Sort Right Half
+            mergeSort(arr, mid+1, right);
+            // Merge Both Halves
+            merge(arr, left, mid, right); 
+        }
+    }
+
+    // Merge two sorted subarrays
+    public static void merge(int[] arr, int left, int mid, int right){
+        int n1 = mid-left+1;
+        int n2 = right-mid;
+        int[] l = new int[n1];
+        int[] r = new int[n2];
+
+        // Copy data to temp arrays
+        for(int i=0; i<n1; i++)
+            l[i] = arr[left+i];
+        for(int j=0; j<n2; j++)
+            r[j] = arr[mid+1+j];
+
+        int i = 0, j=0, k=left;
+
+        // Merge temp arrays back into array/arr
+        while (i<n1 && j<n2) {
+            if (l[i]<=r[j]) {
+                arr[k++] = l[i++];
+            }
+            else{
+                arr[k++] = r[j++];
+            }
+        }
+
+        // Copy remaining elements
+        while (i<n1) {
+            arr[k++] = l[i++];
+        }
+        while (j<n2) {
+            arr[k++] = r[j++];
+        }
+    }
+
+    // Driver Code
+    public static void main(String[] args) {
+        
+        int[] arr = {38,27,43,3,9,82,10};
+        System.out.println("Before Sorting: ");
+        System.out.println(Arrays.toString(arr));
+
+        mergeSort(arr, 0, arr.length-1);
+        
+        System.out.println("After Sorting: ");
+        System.out.println(Arrays.toString(arr));
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab2/Images/merge_sort.png}
+    \caption{Program to show Merge Sort}
+    \label{fig:merge_sort_output}
+\end{figure}
+%-----------------------------------------------
+% Task 5
+% -----------------------------------------------
+\subsection{Write a program to show Quick Sort}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+    // Quick Sort : small -- pivot -- larger
+import java.util.Arrays;
+
+public class QuickSort {
+
+    // Main quick sort function
+    public static void quickSort(int[] arr, int low, int high){
+        if (low<high) {
+            int pivotIndex = partition(arr, low, high);
+            
+            // Sort elements before and after partition
+            quickSort(arr, low, pivotIndex-1);
+            quickSort(arr, pivotIndex+1, high);
+        }
+    }
+
+    // Partition Function 
+    public static int partition(int[] arr, int low, int high){
+        int pivot = arr[high]; // Choose last element as pivot
+        int i = low-1;
+        for(int j=low; j<high; j++){
+            if (arr[j]<pivot) {
+                i++;
+
+                // Swap arr[i] and arr[j]
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        // Place pivot at correct position
+        int temp = arr[i+1];
+        arr[i+1] = arr[high];
+        arr[high] = temp;
+
+        return i+1;
+    }
+
+    // Driver code
+    public static void main(String[] args) {
+        
+        int[] arr = {34,2,56,4,89,65,1,44};
+        System.out.println("Before Sorting: ");
+        System.out.println(Arrays.toString(arr));
+
+        quickSort(arr, 0, arr.length-1);
+        System.out.println("After Sorting: ");
+        System.out.println(Arrays.toString(arr));
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab2/Images/quick_sort.png}
+    \caption{Program to show Quick Sort}
+    \label{fig:quick_sort_output}
+\end{figure}
+%-----------------------------------------------

@@ -1,0 +1,11 @@
+\babel@toc {english}{}\relax 
+\noindent \textbf {Assignment 1: Basic Programs }\hfill \textbf {28-01-2026}\hfill \textbf {1}\par 
+\contentsline {subsection}{\numberline {1.1}Hello World}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Write a program to show Array}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Write a program to show sum and average}{1}{subsection.1.3}%
+\noindent \textbf {Assignment 2: Sorting Algorithms}\hfill \textbf {28-01-2026}\hfill \textbf {3}\par 
+\contentsline {subsection}{\numberline {2.1}Write a program to show Bubble Sort}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Write a program to show Insertion Sort}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Write a program to show Selection Sort}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Write a program to show Merge Sort}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Write a program to show Quick Sort}{6}{subsection.2.5}%
