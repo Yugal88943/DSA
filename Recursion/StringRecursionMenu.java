@@ -71,13 +71,11 @@ class StringRecursionMenu {
                     case 4:
                         System.out.println(countVowels(str, 0));
                         break;
-                    
-                    // default:
-                    //     System.out.println("Invalid Input");
                 }
             }
         }
-        while (choice != 5);
+        while(choice != 5);
+        System.out.println("Program Closed");
         sc.close();
     }
 }
