@@ -1,0 +1,35 @@
+\refstepcounter{section}
+\addlabcontentsline{Assignment \thesection: Iteration}{07-02-2026}{\thepage}
+\section*{\centering Assignment \thesection: Iteration}
+%-----------------------------------------------
+% Task 1
+% -----------------------------------------------
+\subsection{Factorial using Iteration}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Iteration;
+// Factorial program using iteration
+public class FactorialUsingIteration {
+    // Driver code
+    public static void main(String[] args) {
+        int n = 5;
+        int fact = 1;
+        for(int i=1; i<=n; i++){
+            fact *= i;
+        }
+        System.out.println("Factorial : "+fact);
+    }
+}
+
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab4/Images/fact_iteration.png}
+    \caption{Output of Factorial using Iteration Program}
+    \label{fig:fact_iteration_output}
+\end{figure}
+
+
+%-----------------------------------------------

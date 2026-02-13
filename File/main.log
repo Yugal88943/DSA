@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.9)  28 JAN 2026 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.9)  13 FEB 2026 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1011,7 +1011,7 @@ Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 
 
 Writing index file main.idx
-(./main.aux (./title_page.aux) (./Lab1/Lab_1.aux) (./Lab2/Lab_2.aux))
+(./main.aux (./title_page.aux) (./Lab1/Lab_1.aux) (./Lab2/Lab_2.aux) (./Lab3/Lab_3.aux) (./Lab4/Lab_4.aux) (./Lab5/Lab_5.aux) (./Lab6/Lab_6.aux) (./Lab7/Lab_7.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
@@ -1121,7 +1121,7 @@ Package gensymb Info: Using \textmu for \micro on input line 113.
 \openout2 = `title_page.aux'.
 
  (./title_page.tex
-<logo_250_1 (1).png, id=39, 60.225pt x 60.225pt>
+<logo_250_1 (1).png, id=111, 60.225pt x 60.225pt>
 File: logo_250_1 (1).png Graphic file (type png)
 <use logo_250_1 (1).png>
 Package pdftex.def Info: logo_250_1 (1).png  used on input line 26.
@@ -1162,7 +1162,7 @@ File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T5/cmtt/m/n' tried instead on input line 13.
-<Lab1/Images/array.png, id=83, 991.705pt x 221.82875pt>
+<Lab1/Images/array.png, id=216, 991.705pt x 221.82875pt>
 File: Lab1/Images/array.png Graphic file (type png)
 <use Lab1/Images/array.png>
 Package pdftex.def Info: Lab1/Images/array.png  used on input line 43.
@@ -1172,7 +1172,7 @@ Package pdftex.def Info: Lab1/Images/array.png  used on input line 43.
 
 
  <./Lab1/Images/array.png>]
-<Lab1/Images/sum_average.png, id=118, 996.72375pt x 158.5925pt>
+<Lab1/Images/sum_average.png, id=251, 996.72375pt x 158.5925pt>
 File: Lab1/Images/sum_average.png Graphic file (type png)
 <use Lab1/Images/sum_average.png>
 Package pdftex.def Info: Lab1/Images/sum_average.png  used on input line 76.
@@ -1181,7 +1181,7 @@ Package pdftex.def Info: Lab1/Images/sum_average.png  used on input line 76.
 \openout2 = `Lab2/Lab_2.aux'.
 
  (./Lab2/Lab_2.tex
-<Lab2/Images/bubble_sort.png, id=134, 1003.75pt x 108.405pt>
+<Lab2/Images/bubble_sort.png, id=267, 1003.75pt x 108.405pt>
 File: Lab2/Images/bubble_sort.png Graphic file (type png)
 <use Lab2/Images/bubble_sort.png>
 Package pdftex.def Info: Lab2/Images/bubble_sort.png  used on input line 33.
@@ -1191,49 +1191,204 @@ Package pdftex.def Info: Lab2/Images/bubble_sort.png  used on input line 33.
 
 
  <./Lab2/Images/bubble_sort.png>]
-<Lab2/Images/insertion_sort.png, id=174, 1009.7725pt x 107.40125pt>
+<Lab2/Images/insertion_sort.png, id=307, 1009.7725pt x 107.40125pt>
 File: Lab2/Images/insertion_sort.png Graphic file (type png)
 <use Lab2/Images/insertion_sort.png>
 Package pdftex.def Info: Lab2/Images/insertion_sort.png  used on input line 66.
 (pdftex.def)             Requested size: 455.24411pt x 48.42024pt.
-<Lab2/Images/selection_sort.png, id=175, 1001.7425pt x 105.39375pt>
+<Lab2/Images/selection_sort.png, id=308, 1001.7425pt x 105.39375pt>
 File: Lab2/Images/selection_sort.png Graphic file (type png)
 <use Lab2/Images/selection_sort.png>
 Package pdftex.def Info: Lab2/Images/selection_sort.png  used on input line 105.
 (pdftex.def)             Requested size: 455.24411pt x 47.89632pt.
  [4 <./Lab2/Images/insertion_sort.png>] [5 <./Lab2/Images/selection_sort.png>]
-<Lab2/Images/merge_sort.png, id=256, 990.70125pt x 186.6975pt>
+<Lab2/Images/merge_sort.png, id=388, 990.70125pt x 186.6975pt>
 File: Lab2/Images/merge_sort.png Graphic file (type png)
 <use Lab2/Images/merge_sort.png>
 Package pdftex.def Info: Lab2/Images/merge_sort.png  used on input line 186.
 (pdftex.def)             Requested size: 455.24411pt x 85.79073pt.
  [6 <./Lab2/Images/merge_sort.png>] [7]
-<Lab2/Images/quick_sort.png, id=341, 995.72pt x 193.72375pt>
+<Lab2/Images/quick_sort.png, id=474, 995.72pt x 193.72375pt>
 File: Lab2/Images/quick_sort.png Graphic file (type png)
 <use Lab2/Images/quick_sort.png>
 Package pdftex.def Info: Lab2/Images/quick_sort.png  used on input line 253.
 (pdftex.def)             Requested size: 455.24411pt x 88.57304pt.
-) [8 <./Lab2/Images/quick_sort.png>] (./main.aux (./title_page.aux) (./Lab1/Lab_1.aux) (./Lab2/Lab_2.aux))
+) [8 <./Lab2/Images/quick_sort.png>]
+\openout2 = `Lab3/Lab_3.aux'.
+
+ (./Lab3/Lab_3.tex
+<Lab3/Images/count_vowels.png, id=489, 607.26875pt x 125.46875pt>
+File: Lab3/Images/count_vowels.png Graphic file (type png)
+<use Lab3/Images/count_vowels.png>
+Package pdftex.def Info: Lab3/Images/count_vowels.png  used on input line 30.
+(pdftex.def)             Requested size: 455.24411pt x 94.06111pt.
+ [9
+
+
+
+ <./Lab3/Images/count_vowels.png>]
+<Lab3/Images/palindrome.png, id=526, 597.23125pt x 126.4725pt>
+File: Lab3/Images/palindrome.png Graphic file (type png)
+<use Lab3/Images/palindrome.png>
+Package pdftex.def Info: Lab3/Images/palindrome.png  used on input line 64.
+(pdftex.def)             Requested size: 455.24411pt x 96.4057pt.
+<Lab3/Images/remove_space.png, id=527, 618.31pt x 133.49875pt>
+File: Lab3/Images/remove_space.png Graphic file (type png)
+<use Lab3/Images/remove_space.png>
+Package pdftex.def Info: Lab3/Images/remove_space.png  used on input line 88.
+(pdftex.def)             Requested size: 455.24411pt x 98.29454pt.
+ [10 <./Lab3/Images/palindrome.png> <./Lab3/Images/remove_space.png>]
+<Lab3/Images/reverse_string.png, id=552, 602.25pt x 138.5175pt>
+File: Lab3/Images/reverse_string.png Graphic file (type png)
+<use Lab3/Images/reverse_string.png>
+Package pdftex.def Info: Lab3/Images/reverse_string.png  used on input line 119.
+(pdftex.def)             Requested size: 455.24411pt x 104.71005pt.
+) [11 <./Lab3/Images/reverse_string.png>]
+\openout2 = `Lab4/Lab_4.aux'.
+
+ (./Lab4/Lab_4.tex
+<Lab4/Images/fact_iteration.png, id=575, 716.6775pt x 124.465pt>
+File: Lab4/Images/fact_iteration.png Graphic file (type png)
+<use Lab4/Images/fact_iteration.png>
+Package pdftex.def Info: Lab4/Images/fact_iteration.png  used on input line 29.
+(pdftex.def)             Requested size: 455.24411pt x 79.06288pt.
+) [12
+
+
+
+ <./Lab4/Images/fact_iteration.png>]
+\openout2 = `Lab5/Lab_5.aux'.
+
+ (./Lab5/Lab_5.tex [13
+
+
+
+]
+<Lab5/Images/binary_search1.png, id=645, 963.6pt x 648.4225pt>
+File: Lab5/Images/binary_search1.png Graphic file (type png)
+<use Lab5/Images/binary_search1.png>
+Package pdftex.def Info: Lab5/Images/binary_search1.png  used on input line 93.
+(pdftex.def)             Requested size: 455.24411pt x 306.34167pt.
+<Lab5/Images/binary_search2.png, id=646, 660.4675pt x 626.34pt>
+File: Lab5/Images/binary_search2.png Graphic file (type png)
+<use Lab5/Images/binary_search2.png>
+Package pdftex.def Info: Lab5/Images/binary_search2.png  used on input line 102.
+(pdftex.def)             Requested size: 455.24411pt x 431.73543pt.
+ [14] [15 <./Lab5/Images/binary_search1.png>] [16 <./Lab5/Images/binary_search2.png>] [17]
+<Lab5/Images/linear_search1.png, id=758, 645.41125pt x 652.4375pt>
+File: Lab5/Images/linear_search1.png Graphic file (type png)
+<use Lab5/Images/linear_search1.png>
+Package pdftex.def Info: Lab5/Images/linear_search1.png  used on input line 189.
+(pdftex.def)             Requested size: 455.24411pt x 460.19746pt.
+<Lab5/Images/linear_search2.png, id=759, 732.7375pt x 250.9375pt>
+File: Lab5/Images/linear_search2.png Graphic file (type png)
+<use Lab5/Images/linear_search2.png>
+Package pdftex.def Info: Lab5/Images/linear_search2.png  used on input line 198.
+(pdftex.def)             Requested size: 455.24411pt x 155.90892pt.
+ [18] [19 <./Lab5/Images/linear_search1.png>]) [20 <./Lab5/Images/linear_search2.png>]
+\openout2 = `Lab6/Lab_6.aux'.
+
+ (./Lab6/Lab_6.tex
+<Lab6/Images/factorial.png, id=790, 611.28375pt x 170.6375pt>
+File: Lab6/Images/factorial.png Graphic file (type png)
+<use Lab6/Images/factorial.png>
+Package pdftex.def Info: Lab6/Images/factorial.png  used on input line 39.
+(pdftex.def)             Requested size: 455.24411pt x 127.07951pt.
+ [21
+
+
+
+ <./Lab6/Images/factorial.png>]
+<Lab6/Images/fibonacci.png, id=823, 718.685pt x 160.6pt>
+File: Lab6/Images/fibonacci.png Graphic file (type png)
+<use Lab6/Images/fibonacci.png>
+Package pdftex.def Info: Lab6/Images/fibonacci.png  used on input line 80.
+(pdftex.def)             Requested size: 455.24411pt x 101.73235pt.
+ [22 <./Lab6/Images/fibonacci.png>]
+<Lab6/Images/palindrome.png, id=861, 605.26125pt x 124.465pt>
+File: Lab6/Images/palindrome.png Graphic file (type png)
+<use Lab6/Images/palindrome.png>
+Package pdftex.def Info: Lab6/Images/palindrome.png  used on input line 104.
+(pdftex.def)             Requested size: 455.24411pt x 93.6163pt.
+<Lab6/Images/power_of_number.png, id=862, 607.26875pt x 133.49875pt>
+File: Lab6/Images/power_of_number.png Graphic file (type png)
+<use Lab6/Images/power_of_number.png>
+Package pdftex.def Info: Lab6/Images/power_of_number.png  used on input line 135.
+(pdftex.def)             Requested size: 455.24411pt x 100.08101pt.
+ [23 <./Lab6/Images/palindrome.png>]
+<Lab6/Images/numbers_print.png, id=889, 784.9325pt x 108.405pt>
+File: Lab6/Images/numbers_print.png Graphic file (type png)
+<use Lab6/Images/numbers_print.png>
+Package pdftex.def Info: Lab6/Images/numbers_print.png  used on input line 167.
+(pdftex.def)             Requested size: 455.24411pt x 62.87328pt.
+ [24 <./Lab6/Images/power_of_number.png> <./Lab6/Images/numbers_print.png>]
+<Lab6/Images/recurse_factorial.png, id=918, 606.265pt x 126.4725pt>
+File: Lab6/Images/recurse_factorial.png Graphic file (type png)
+<use Lab6/Images/recurse_factorial.png>
+Package pdftex.def Info: Lab6/Images/recurse_factorial.png  used on input line 199.
+(pdftex.def)             Requested size: 455.24411pt x 94.96992pt.
+<Lab6/Images/reverse_number.png, id=919, 609.27625pt x 133.49875pt>
+File: Lab6/Images/reverse_number.png Graphic file (type png)
+<use Lab6/Images/reverse_number.png>
+Package pdftex.def Info: Lab6/Images/reverse_number.png  used on input line 231.
+(pdftex.def)             Requested size: 455.24411pt x 99.75102pt.
+ [25 <./Lab6/Images/recurse_factorial.png>]
+<Lab6/Images/menu1.png, id=955, 483.8075pt x 647.41875pt>
+File: Lab6/Images/menu1.png Graphic file (type png)
+<use Lab6/Images/menu1.png>
+Package pdftex.def Info: Lab6/Images/menu1.png  used on input line 263.
+(pdftex.def)             Requested size: 364.19667pt x 487.38057pt.
+<Lab6/Images/menu2.png, id=956, 349.305pt x 540.0175pt>
+File: Lab6/Images/menu2.png Graphic file (type png)
+<use Lab6/Images/menu2.png>
+Package pdftex.def Info: Lab6/Images/menu2.png  used on input line 272.
+(pdftex.def)             Requested size: 364.19667pt x 563.07167pt.
+ [26 <./Lab6/Images/reverse_number.png>] [27 <./Lab6/Images/menu1.png>] [28 <./Lab6/Images/menu2.png>]
+<Lab6/Images/sum.png, id=991, 601.24625pt x 125.46875pt>
+File: Lab6/Images/sum.png Graphic file (type png)
+<use Lab6/Images/sum.png>
+Package pdftex.def Info: Lab6/Images/sum.png  used on input line 304.
+(pdftex.def)             Requested size: 455.24411pt x 95.00304pt.
+) [29 <./Lab6/Images/sum.png>]
+\openout2 = `Lab7/Lab_7.aux'.
+
+ (./Lab7/Lab_7.tex [30
+
+
+
+] [31]
+<Lab7/Images/singly_ll.png, id=1108, 606.265pt x 242.9075pt>
+File: Lab7/Images/singly_ll.png Graphic file (type png)
+<use Lab7/Images/singly_ll.png>
+Package pdftex.def Info: Lab7/Images/singly_ll.png  used on input line 102.
+(pdftex.def)             Requested size: 455.24411pt x 182.40254pt.
+ [32 <./Lab7/Images/singly_ll.png>] [33] [34] [35]
+<Lab7/Images/doubly_ll.png, id=1285, 610.28pt x 215.80624pt>
+File: Lab7/Images/doubly_ll.png Graphic file (type png)
+<use Lab7/Images/doubly_ll.png>
+Package pdftex.def Info: Lab7/Images/doubly_ll.png  used on input line 309.
+(pdftex.def)             Requested size: 455.24411pt x 160.98824pt.
+) [36] [37 <./Lab7/Images/doubly_ll.png>] (./main.aux (./title_page.aux) (./Lab1/Lab_1.aux) (./Lab2/Lab_2.aux) (./Lab3/Lab_3.aux) (./Lab4/Lab_4.aux) (./Lab5/Lab_5.aux) (./Lab6/Lab_6.aux) (./Lab7/Lab_7.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E7968AEF5DA7320456CFD43AA3DE007A;1803.
+(rerunfilecheck)             Checksum: FF942803916E3B158C9EE6EEE70E7800;5162.
  ) 
 Here is how much of TeX's memory you used:
- 37603 strings out of 474222
- 765258 string characters out of 5748733
- 2169975 words of memory out of 5000000
- 59033 multiletter control sequences out of 15000+600000
+ 38809 strings out of 474222
+ 787869 string characters out of 5748733
+ 2176975 words of memory out of 5000000
+ 59437 multiletter control sequences out of 15000+600000
  575756 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,12n,93p,497b,2563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on main.pdf (11 pages, 355665 bytes).
+Output written on main.pdf (40 pages, 1021043 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 257 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1576 PDF objects out of 1728 (max. 8388607)
+ 1475 compressed objects within 15 object streams
+ 1019 named destinations out of 1200 (max. 500000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 

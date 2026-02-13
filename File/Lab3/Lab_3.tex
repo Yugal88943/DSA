@@ -1,0 +1,124 @@
+\refstepcounter{section}
+\addlabcontentsline{Assignment \thesection: String}{05-02-2026}{\thepage}
+\section*{\centering Assignment \thesection: String}
+%-----------------------------------------------
+% Task 1
+% -----------------------------------------------
+\subsection{Write a program to Count Vowels in a String}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+// Count vowels name in String
+public class CountVowels {
+    public static void main(String[] args) {
+        String str = "Eleven";
+        int count = 0;
+        for(int i=0; i<str.length();i++){
+            char ch = str.charAt(i);
+            if("AEIOUaeiou".indexOf(ch) != -1){
+                count++;
+            }
+        }
+        System.out.println("Vowels: "+ count);
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab3/Images/count_vowels.png}
+    \caption{Output of Count Vowels Program}
+    \label{fig:count_vowels_output}
+\end{figure}
+%-----------------------------------------------
+% Task 2
+% -----------------------------------------------
+\subsection{Palindrome String}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+// Word is spelled in same way forward or backward. Eg: NITIN, MADAM
+//Paldindrome
+public class Palindrome {
+    public static void main(String[] args) {
+        String str = "nitin";
+        String rev = "";
+
+        for(int i=str.length()-1; i>=0;i--){
+            rev += str.charAt(i);
+        }
+
+        if (str.equals(rev)) {
+            System.out.println(str + " is a palindrome.");
+        }else{
+            System.out.println(str + " is not a palindrome.");
+        }
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab3/Images/palindrome.png}
+    \caption{Output of Palindrome Program}
+    \label{fig:palindrome_program_output}
+\end{figure}
+%-----------------------------------------------    
+% Task 3
+% -----------------------------------------------
+\subsection{Remove Spaces from a String}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+// Remove spaces from string
+public class RemoveSpaces {
+    public static void main(String[] args) {
+        String str = "Every Expert Was Once A Beginner.";
+        System.out.println(str.replace(" ", ""));
+    }
+}
+
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab3/Images/remove_space.png}
+    \caption{Output of Remove Spaces Program}
+    \label{fig:remove_spaces_output}
+\end{figure}
+%-----------------------------------------------
+% Task 4
+% -----------------------------------------------
+\subsection{Reverse a String}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+
+public class ReverseString {
+    
+    public static void main(String[] args) {
+        
+        String str = "Hello";
+        String rev = "";
+
+        for(int i = str.length()-1; i>=0; i--){
+            rev = rev + str.charAt(i);
+        }
+        System.out.println("Reversed String: "+ rev);
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab3/Images/reverse_string.png}
+    \caption{Output of Reverse String Program}
+    \label{fig:reverse_string_output}
+\end{figure}
+
+%-----------------------------------------------

@@ -3,9 +3,32 @@
 \contentsline {subsection}{\numberline {1.1}Hello World}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Write a program to show Array}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Write a program to show sum and average}{1}{subsection.1.3}%
-\noindent \textbf {Assignment 2: Sorting Algorithms}\hfill \textbf {28-01-2026}\hfill \textbf {3}\par 
+\noindent \textbf {Assignment 2: Sorting Algorithms}\hfill \textbf {02-02-2026}\hfill \textbf {3}\par 
 \contentsline {subsection}{\numberline {2.1}Write a program to show Bubble Sort}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Write a program to show Insertion Sort}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Write a program to show Selection Sort}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Write a program to show Merge Sort}{5}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Write a program to show Quick Sort}{6}{subsection.2.5}%
+\noindent \textbf {Assignment 3: String}\hfill \textbf {05-02-2026}\hfill \textbf {9}\par 
+\contentsline {subsection}{\numberline {3.1}Write a program to Count Vowels in a String}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Palindrome String}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Remove Spaces from a String}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Reverse a String}{10}{subsection.3.4}%
+\noindent \textbf {Assignment 4: Iteration}\hfill \textbf {07-02-2026}\hfill \textbf {12}\par 
+\contentsline {subsection}{\numberline {4.1}Factorial using Iteration}{12}{subsection.4.1}%
+\noindent \textbf {Assignment 5: Searching}\hfill \textbf {09-02-2026}\hfill \textbf {13}\par 
+\contentsline {subsection}{\numberline {5.1}Binary Search}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Linear Search}{16}{subsection.5.2}%
+\noindent \textbf {Assignment 6: Recursion}\hfill \textbf {11-02-2026}\hfill \textbf {21}\par 
+\contentsline {subsection}{\numberline {6.1}Factorial of a Number using Recursion}{21}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Fibonacci Series using Recursion}{21}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Palindrome String using Recursion}{22}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Power of a number using Recursion}{23}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Print numbers using Recursion}{24}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Recursion Factorial of a Number}{24}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Reverse Number using Recursion}{25}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}String Recursion Menu}{26}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Sum of digits using Recursion}{28}{subsection.6.9}%
+\noindent \textbf {Assignment 7: Linked List}\hfill \textbf {12-02-2026}\hfill \textbf {30}\par 
+\contentsline {subsection}{\numberline {7.1}Singly-Linked-List}{30}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Doubly-Linked-List}{32}{subsection.7.2}%

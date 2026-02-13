@@ -1,0 +1,309 @@
+\refstepcounter{section}
+\addlabcontentsline{Assignment \thesection: Recursion}{11-02-2026}{\thepage}
+\section*{\centering Assignment \thesection: Recursion}
+%-----------------------------------------------
+% Task 1
+% -----------------------------------------------
+\subsection{Factorial of a Number using Recursion}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Recursion;
+
+import java.util.Scanner;
+
+// Factorial Program --> eg: 4! = 4*3*2*1 = 24
+public class Factorial {
+
+    static int factorial(int n){
+        if (n == 0) 
+            return 1;
+        return n * factorial(n-1);
+    }
+
+    //Driver Code
+    public static void main(String[] args) {
+
+        System.out.println("Enter any number: ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        System.out.println("Factorial of "+ num + " is "+ factorial(num));
+        sc.close();
+    }
+}
+
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab6/Images/factorial.png}
+    \caption{Output of Factorial Program}
+    \label{fig:factorial_output}
+\end{figure}
+%-----------------------------------------------
+% Task 2
+% -----------------------------------------------
+\subsection{Fibonacci Series using Recursion}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Recursion;
+import java.util.Scanner;
+
+//Fibonacci Series --> 0,1,0+1=1,1+1=2,2+1=3...
+public class Fibonacci {
+    static int fibonacci(int n){
+        if (n == 0)
+            return 0;
+        if (n == 1)
+            return 1;
+        return fibonacci(n-1) + fibonacci(n-2);
+    }
+    //Driver Code
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Element: ");
+        
+        int terms = sc.nextInt();
+        for(int i = 0; i<terms; i++){
+            System.out.print(fibonacci(i) + " ");
+            sc.close();
+        } 
+    }
+}
+
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab6/Images/fibonacci.png}
+    \caption{Output of Fibonacci Program}
+    \label{fig:fibonacci_output}
+\end{figure}
+%-----------------------------------------------    
+% Task 3
+% -----------------------------------------------
+\subsection{Palindrome String using Recursion}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+// Remove spaces from string
+public class RemoveSpaces {
+    public static void main(String[] args) {
+        String str = "Every Expert Was Once A Beginner.";
+        System.out.println(str.replace(" ", ""));
+    }
+}
+
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab6/Images/palindrome.png}
+    \caption{Output of Palindrome Program}
+    \label{fig:palindrome_output}
+\end{figure}
+%-----------------------------------------------
+% Task 4
+% -----------------------------------------------
+\subsection{Power of a number using Recursion}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+
+public class ReverseString {
+    
+    public static void main(String[] args) {
+        
+        String str = "Hello";
+        String rev = "";
+
+        for(int i = str.length()-1; i>=0; i--){
+            rev = rev + str.charAt(i);
+        }
+        System.out.println("Reversed String: "+ rev);
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab6/Images/power_of_number.png}
+    \caption{Output of Power of Number Program}
+    \label{fig:power_of_number_output}
+\end{figure}
+
+%-----------------------------------------------
+% Task 5
+% -----------------------------------------------
+\subsection{Print numbers using Recursion}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+
+public class ReverseString {
+    
+    public static void main(String[] args) {
+        
+        String str = "Hello";
+        String rev = "";
+
+        for(int i = str.length()-1; i>=0; i--){
+            rev = rev + str.charAt(i);
+        }
+        System.out.println("Reversed String: "+ rev);
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab6/Images/numbers_print.png}
+    \caption{Output of Print Numbers Program}
+    \label{fig:numbers_print_output}
+\end{figure}
+
+%-----------------------------------------------
+% Task 6
+% -----------------------------------------------
+\subsection{Recursion Factorial of a Number}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+
+public class ReverseString {
+    
+    public static void main(String[] args) {
+        
+        String str = "Hello";
+        String rev = "";
+
+        for(int i = str.length()-1; i>=0; i--){
+            rev = rev + str.charAt(i);
+        }
+        System.out.println("Reversed String: "+ rev);
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab6/Images/recurse_factorial.png}
+    \caption{Output of Recursion Factorial Program}
+    \label{fig:recurse_factorial_output}
+\end{figure}
+
+%-----------------------------------------------
+% Task 7
+% -----------------------------------------------
+\subsection{Reverse Number using Recursion}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+
+public class ReverseString {
+    
+    public static void main(String[] args) {
+        
+        String str = "Hello";
+        String rev = "";
+
+        for(int i = str.length()-1; i>=0; i--){
+            rev = rev + str.charAt(i);
+        }
+        System.out.println("Reversed String: "+ rev);
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab6/Images/reverse_number.png}
+    \caption{Output of Reverse Number Program}
+    \label{fig:reverse_number_output}
+\end{figure}
+
+%-----------------------------------------------
+% Task 8
+% -----------------------------------------------
+\subsection{String Recursion Menu}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+
+public class ReverseString {
+    
+    public static void main(String[] args) {
+        
+        String str = "Hello";
+        String rev = "";
+
+        for(int i = str.length()-1; i>=0; i--){
+            rev = rev + str.charAt(i);
+        }
+        System.out.println("Reversed String: "+ rev);
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    % \vspace{-1em}
+    \includegraphics[width=0.8\textwidth]{Lab6/Images/menu1.png}
+    % \includegraphics[width=1.0\textwidth]{Lab6/Images/menu2.png}
+    \caption{Output of String Recursion Menu Program}
+    \label{fig:string_recursion_menu_output}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    % \vspace{-1em}
+    % \includegraphics[width=1.0\textwidth]{Lab6/Images/menu1.png}
+    \includegraphics[width=0.8\textwidth]{Lab6/Images/menu2.png}
+    \caption{Output of String Recursion Menu Program}
+    \label{fig:string_recursion_menu_output_2}
+\end{figure}
+
+%-----------------------------------------------
+% Task 9
+% -----------------------------------------------
+\subsection{Sum of digits using Recursion}
+\begin{lstlisting}[style=pythonStyle, caption={}]
+package Strings;
+
+public class ReverseString {
+    
+    public static void main(String[] args) {
+        
+        String str = "Hello";
+        String rev = "";
+
+        for(int i = str.length()-1; i>=0; i--){
+            rev = rev + str.charAt(i);
+        }
+        System.out.println("Reversed String: "+ rev);
+
+    }
+}
+\end{lstlisting}
+\subsubsection*{Output}
+% \vspace{-1em}
+\begin{figure}[H]
+    \centering
+    \vspace{-1em}
+    \includegraphics[width=1.0\textwidth]{Lab6/Images/sum.png}
+    \caption{Output of Sum of Digits Program}
+    \label{fig:sum_output}
+\end{figure}
+
+%-----------------------------------------------
