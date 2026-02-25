@@ -1,7 +1,7 @@
-🚀 Data Structures & Algorithms – Implementation Repository
+🚀 Data Structures & Algorithms – Implementation Repository:
 A comprehensive implementation of core Data Structures and Algorithms with optimized solutions, complexity analysis, and real-world problem modeling.
 
-📌 About This Repository
+📌 About This Repository:
 This repository contains structured implementations of fundamental and advanced Data Structures & Algorithms concepts.
 
 The goal of this repository is to:
@@ -13,7 +13,7 @@ The goal of this repository is to:
 
 🧠 Topics Covered:
 
-📦 Arrays
+📦 Arrays:
 - 1D & 2D Arrays
 - Array Traversal & Manipulation
 - Rotation Techniques
@@ -21,21 +21,21 @@ The goal of this repository is to:
 - Matrix Search Problems
 - Prefix Sum Techniques
 
-🔤 Strings
-= String Manipulation
+🔤 Strings:
+- String Manipulation
 - Palindrome Detection
 - Substring Problems
 - Pattern Matching
 - Recursive String Processing
 - Compression Algorithms
 
-🔁 Recursion & Iteration
+🔁 Recursion & Iteration:
 - Recursive vs Iterative Approach
 - Backtracking Basics
 - Recursive Problem Modeling
 - Stack Frame Understanding
 
-🔗 Linked Lists
+🔗 Linked Lists:
 - Singly Linked List
 - Doubly Linked List
 - Reversal (Iterative & Recursive)
@@ -43,14 +43,14 @@ The goal of this repository is to:
 - Insertion & Deletion Operations
 - Custom Data Modeling using Linked Structures
 
-📚 Stacks & Queues
+📚 Stacks & Queues:
 - Stack (Array & Linked List Implementation)
 - Queue (Linear & Circular)
 - Applications in Parsing
 - Scheduling Simulations
 - Navigation Modeling (Back/Forward Logic)
 
-🌳 Trees
+🌳 Trees:
 - Tree Terminology
 - Binary Trees
 - Binary Search Trees (BST)
@@ -60,21 +60,21 @@ The goal of this repository is to:
   - Post-order
 - Efficient Searching & Insertion
 
-⛰ Heaps & Priority Queues
+⛰ Heaps & Priority Queues:
 - Min Heap
 - Max Heap
 - Heapify Operations
 - Priority Queue Implementation
 - Scheduling Optimization
 
-#️⃣ Hashing
+#️⃣ Hashing:
 - Hash Tables
 - Collision Handling
 - HashMaps
 - Frequency Counting
 - Fast Lookup Optimization
 
-🌐 Graphs
+🌐 Graphs:
 - Graph Representation:
   - Adjacency List
   - Adjacency Matrix
@@ -82,13 +82,13 @@ The goal of this repository is to:
   - Depth-First Search (DFS)
   - Grid-Based Path Finding
 
-💡 Greedy Algorithms
+💡 Greedy Algorithms:
 - Activity Selection
 - Coin Change
 - Optimization Strategies
 - Local vs Global Optimal Decisions
 
-⚡ Dynamic Programming
+⚡ Dynamic Programming:
 - Memoization
 - Tabulation
 - Fibonacci Optimization
@@ -96,29 +96,28 @@ The goal of this repository is to:
 - Longest Increasing Subsequence (LIS)
 - Real-World Optimization Problems
 
-📊 Code Quality Standards
+📊 Code Quality Standards:
 - Clean and readable code structure
 - Meaningful variable naming
 - Time & Space complexity mentioned in comments
 - Edge case handling
 - Optimized approaches preferred over brute force
 
-💻 Tech Stack
+💻 Tech Stack:
 - Language: Java 
 - Version Control: Git & GitHub
 - IDE: VS Code 
 
-🎯 Objective
+🎯 Objective:
 - This repository reflects continuous improvement in:
   - Problem-solving ability
   - Algorithmic efficiency
   - Interview readiness
   - Real-world modeling using DSA
 
-👨‍💻 Author
+👨‍💻 Author:
 Yugal
 Software Engineering Enthusiast | DSA Practitioner
 
-⭐ Support
-
+⭐ Support:
 If you find this repository helpful, consider giving it a ⭐.
